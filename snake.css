@@ -1,0 +1,32 @@
+body {
+    background: rgb(47, 47, 47);
+}
+
+#game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    background: grey;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    margin: 0.2em;
+}
+
+.snake-body {
+    background: white;
+}
+
+.food {
+    background: red;
+}
