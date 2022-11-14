@@ -2,7 +2,7 @@ body {
     background: rgb(47, 47, 47);
 }
 
-#game {
+#board {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -23,7 +23,7 @@ body {
     margin: 0.2em;
 }
 
-.snake-body {
+.snake {
     background: white;
 }
 
